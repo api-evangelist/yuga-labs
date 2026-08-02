@@ -1,8 +1,26 @@
 aid: yuga-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yuga-labs.png
 name: Yuga Labs
-description: 'Yuga Labs is a company surfaced as a portfolio company of a16z, bond-capital, gv, lightspeed-venture-partners,
-  sv-angel and added to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Yuga Labs is a Web3 company and the creator of the Bored Ape Yacht Club (BAYC),
+  Mutant Ape Yacht Club (MAYC), and the Otherside metaverse, along with related NFT collections
+  and intellectual property. Backed by a16z, Bond Capital, GV, Lightspeed Venture Partners and
+  SV Angel, the company operates in the crypto / NFT sector on the Ethereum blockchain. It does
+  not publish a formal, documented public developer API program; its on-chain assets are accessed
+  via Ethereum smart contracts and third-party marketplaces (OpenSea, Blur), and Otherside exposes
+  the forthcoming Otherside Development Kit (ODK) for building within the metaverse. This profile
+  was added to the API Evangelist network as a portfolio lead and enriched with the available
+  public identity and domain-security signals.'
 url: https://raw.githubusercontent.com/api-evangelist/yuga-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- NFT
+- Blockchain
+- Web3
+- Metaverse
+- Ethereum
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +52,14 @@ maintainers:
 common:
 - type: Website
   url: https://yuga.com
+- type: TermsOfService
+  url: https://yuga.com/terms
+- type: PrivacyPolicy
+  url: https://yuga.com/privacy
+- type: DomainSecurity
+  url: security/yuga-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
